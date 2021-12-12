@@ -1,5 +1,8 @@
 # Testing Server JSON - JSON-Server
 
+This is the mock json server for testing apps with CRUD functionalities without having to really develop the backend and database.
+
+<br/>
 
 Package to Install:
 
@@ -18,5 +21,7 @@ To run backend & frontend concurrently use
 - concurrently
 
 ```
-run: dev: "concurrently \"npm run server\" \"npm start\""
+Run
+
+dev: "concurrently \"npm run server\" \"npm start\""
 ```
